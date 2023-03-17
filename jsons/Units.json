@@ -3556,6 +3556,34 @@
 		"attackSound": "torpedo"
 	},
 	{
+"name": "Advanced Fighter",
+"unitType": "Air Close Air Support",
+"movement": 1,
+"strength": 72,
+"rangedStrength": 84,
+"range": 12,
+"interceptRange": 12,
+"cost": 425,
+"requiredTech": "Automation",
+"requiredResource": "Fuel",
+"uniques": ["Cyber","[85]% chance to intercept air attacks", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
+"attackSound": "jetgun"
+	},
+{
+"name": "Advanced Bomber",
+"unitType": "Air Bomber",
+"movement": 1,
+"strength": 90,
+"rangedStrength": 90,
+"range": 20,
+"cost": 425,
+"requiredTech": "Automation",
+"upgradesTo": "Stealth Bomber",
+"attackSound": "bombing"
+"uniques": ["Cyber","Damage taken from interception reduced by [100]%", "Consumes [1] [Fuel]", "Consumes [1] [Aluminum]"],
+
+	},
+	{
 		"name": "Orbital Strike",
 		"unitType": "Air Missile",
 		"movement": 1,
