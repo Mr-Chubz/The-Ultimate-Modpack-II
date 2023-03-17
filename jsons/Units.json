@@ -512,6 +512,20 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Camel Warrior",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Camel",
+		"upgradesTo": "Heavy Camel Warrior",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus","Can move after attacking","Penalty vs City 33%"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "African Forest Elephant",
 		"unitType": "Heavy Cavalry",
 		"uniqueTo": "Carthage",
@@ -569,6 +583,21 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Camel Bowman",
+		"unitType": "Ranged Cavalry",
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Camel",
+		"upgradesTo": "Heavy Camel Bowman",
+		"obsoleteTech": "Machinery",
+		"uniques": ["No defensive terrain bonus","Can move after attacking","Penalty vs City 33%"],
+		"hurryCostModifier": 20,
 		"attackSound": "arrow"
 	},
 	{
@@ -877,6 +906,20 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Heavy Camel Warrior",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Camel",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["No defensive terrain bonus","Can move after attacking","Penalty vs City 33%"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Knight",
 		"unitType": "Heavy Cavalry",
 		"movement": 5,
@@ -917,21 +960,36 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Camel Archer",
+		"name": "Heavy Camel Bowman",
 		"unitType": "Ranged Cavalry",
-		"replaces": "Heavy Horse Archer",
-		"uniqueTo": "Arabia",
 		"movement": 4,
-		"strength": 15,
-		"rangedStrength": 21,
-		"cost": 145,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Horse Artillery",
-		"obsoleteTech": "Metallurgy",
-		"uniques": ["No defensive terrain bonus"],
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"requiredResource": "Camel",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["No defensive terrain bonus","Can move after attacking","Penalty vs City 33%"],
+		"hurryCostModifier": 20,
 		"attackSound": "arrow"
-		//Camel Archer should have no penalty attacking cities
+	},
+	{
+		"name": "Camel Archer",
+		"replaces": "Knight",
+		"uniqueTo": "Arabia",
+		"unitType": "Ranged Cavalry",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Camel",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Conquistador",
@@ -2958,6 +3016,39 @@
 		"requiredResource": "Oil",
 		"attackSound": "bombing"
 	},
+	{
+		"name": "Enhanced Infantry",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 95,
+		"cost": 350,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Titanium",
+		"uniques": ["Can move after attacking"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Enhanced Recon",
+		"unitType": "Recon",
+		"movement": 4,
+		"strength": 90,
+		"cost": 350,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Titanium",
+		"uniques": ["[+1] Sight","Ignores terrain cost"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Assault Hovercraft",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 110,
+		"cost": 400,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Titanium",
+		"uniques": ["Can move after attacking","Ignores terrain cost"],
+		"hurryCostModifier": 20
+	}
 	{
 		"name": "Giant Death Robot",
 		"unitType": "Heavy Cavalry",
