@@ -1,34 +1,49 @@
 [
-	{
-		"name": "Circus Maximus",
-		"cost": 125,
-		"happiness": 5,
-		"specialistSlots": {"Entertainer": 2},
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Terracotta Army",
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
-		"requiredTech": "Construction",
-		"uniques": ["[2] free [Spearman] units appear", "[2] free [Composite Bowman] units appear"]
-		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
-	},
-	{
-		"name": "Alhambra",
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [{Land} {Melee}] units [in this city] receive the [Drill] promotion",
-			"Gain a free [Castle] [in this city]"],
-		"requiredTech": "Chivalry",
-		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
-	},	
-	{
+  //General
+  {
+        "name": "Horse Racing",
+        "hurryCostModifier": 25,
+        "uniques": ["[+1 Gold] for every [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
+        "requiredTech": "Animal Husbandry"
+  },
+  {
+        "name": "Work Horses",
+        "hurryCostModifier": 25,
+        "happiness": 2,
+        "uniques": ["[+1 Food] for every [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Horses]","[+2 Food] from [Pasture] tiles [in this city]", "[+1 Food, +1 Production, +1 Gold] from [Farm] tiles [in this city]"],
+        "requiredTech": "The Wheel"
+  },
+   {
+        "name": "Work Camels",
+        "hurryCostModifier": 25,
+        "happiness": 2,
+        "uniques": ["[+1 Food] for every [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Camel]","[+10]% Food, [+10]% Gold from every [Trade route] [in this city]","[+2 Gold] from [Trading post] tiles [in this city]"],
+        "requiredTech": "The Wheel"
+},
+  {
+        "name": "Riding Instructor",
+        "hurryCostModifier": 25,
+        "gold": 2,
+        "uniques": ["New [Light Cavalry, Heavy Cavalry, Ranged Cavalry, Counter Cavalry] units start with [30] Experience [in this city]", "Consumes [1] [Horses]"],
+        "requiredTech": "Horseback Riding"
+},
+  {
+        "name": "Make Tools",
+        "hurryCostModifier": 25,
+        "production": 1
+        "uniques": ["[+1 Science, +2 Production] for every [3] population [in this city]", "[+3]% [Science] [in this city]", "Consumes [1] [Iron]"],
+        "requiredTech": "Iron Working"
+},
+{
+    "name": "Censer Maker",
+    "cost": "150",
+    "maintenance": 1,
+    "requiredNearbyImprovedResources": ["Incense","Tobacco"],
+    "resourceBonusStats": {"gold": 1,"happiness": 1,"culture": 1},
+    "hurryCostModifier": 20,
+    "requiredTech": "Theology"
+  },
+  {
 		"name": "Stronghold",
 		"cost": 150,
 		"cityStrength": 5,
@@ -38,7 +53,54 @@
 		"uniques": ["May buy [Routiers] units with [Gold] for [1] times their normal Production cost","May buy [Free Company] units with [Gold] for [1] times their normal Production cost","May buy [Mercenaries] units with [Gold] for [1] times their normal Production cost","May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost"],
 		"requiredTech": "Civil Service"
 	},
-	{
+  {
+        "name": "Horse Breeding",
+        "hurryCostModifier": 25,
+        "cost": 2,
+        "uniques": ["Consumes [1] [Horses]","Provides [3] [Horses]"],
+        "requiredTech": "Chivalry"
+},
+ {
+    "name": "Gemcutter",
+    "cost": "100",
+    "maintenance": 1,
+    "requiredNearbyImprovedResources": ["Lapis Lazuli","Gems","Diamond","Amber","Jade"],
+    "resourceBonusStats": {"gold": 1,"happiness": 1,"culture": 1},
+    "hurryCostModifier": 20,
+    "requiredTech": "Machinery"
+  },
+ {
+    "name": "Grocer",
+    "cost": "200",
+    "maintenance": 2,
+    "requiredNearbyImprovedResources": ["Citrus","Bananas","Dates","Melon","Pineapple","Apple","Blueberry","Strawberry","Mango","Coconut","Spices","Sugar","Salt","Cocoa",
+                                          "Truffles","Crab","Shrimp","Oyster","Fish","Shark","Kelp","Moringa","Potato","Tomato","Carrot","Bell Pepper","Corn","Pumpkin",
+                                           "Sweet Potato","Lobster","Chili","Common Pepper","Onion","Garlic","Sheep","Cattle","Goat","Nut","Watermelon","Chicken",
+                                           "Honey","Purple Yam","Taro","Bitter Gourd"],
+    "resourceBonusStats": {"food": 2},
+    "hurryCostModifier": 20,
+    "requiredTech": "Banking"
+  },
+{
+    "name": "Textile Mill",
+    "cost": "300",
+    "maintenance": 2,
+    "requiredNearbyImprovedResources": ["Flax","Cotton","Silk","Furs","Dyes"],
+    "resourceBonusStats": {"production": 2},
+    "hurryCostModifier": 20,
+    "requiredTech": "Economics"
+  },
+ {
+    "name": "Clothing Store",
+    "cost": "300",
+    "maintenance": 2,
+    "requiredNearbyImprovedResources": ["Flax","Cotton","Silk","Furs","Dyes"],
+    "resourceBonusStats": {"culture": 1,"happiness": 1},
+    "hurryCostModifier": 20,
+    "requiredBuilding": "Textile Mill",
+    "requiredTech": "Economics"
+  },
+  {
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
@@ -48,7 +110,39 @@
 		"requiredTech": "Metallurgy",
 		"uniques": ["Destroyed when the city is captured", "[2] free [Militiaman] units appear"]
 	},
-	{
+{
+        "name": "Steel Manufactury",
+        "hurryCostModifier": 25,
+        "production": 5
+        "uniques": ["Consumes [1] [Iron]"],
+        "requiredTech": "Metallurgy"
+},
+{
+        "name": "Alloy Steel Manufactury",
+        "hurryCostModifier": 25,
+        "production": 3
+        "uniques": ["Consumes [1] [Iron]", "[+2 Production] from [Mine] tiles [in this city]"],
+        "requiredTech": "Metallurgy"
+},
+ {
+    "name": "Perfumery",
+    "cost": "200",
+    "maintenance": 1,
+    "requiredNearbyImprovedResources": ["Perfume"],
+    "resourceBonusStats": {"gold": 1,"happiness": 1,"culture": 1},
+    "hurryCostModifier": 20,
+    "requiredTech": "Chemistry"
+  },
+{
+    "name": "Oil Refinery",
+    "cost": "450",
+    "maintenance": 2,
+    "requiredNearbyImprovedResources": ["Oil"],
+    "resourceBonusStats": {"gold": 3,"production": 3},
+    "hurryCostModifier": 20,
+    "requiredTech": "Biology"
+  },
+  {
 		"name": "Coastal Battery",
 		"cost": 400,
 		"cityStrength": 9,
@@ -60,7 +154,17 @@
 		"requiredResource": "Iron"
 		"uniques": ["Destroyed when the city is captured", "May buy [Coastal Barrage] units with [Gold] for [1] times their normal Production cost [in this city]"],
 	},
-	{
+ {
+    "name": "Geothermal Plant",
+    "cost": "400",
+    "maintenance": 3,
+    "resourceBonusStats": {"production": 3},
+    "percentStatBonus": {"production": 15},
+    "hurryCostModifier": 20,
+    "requiredTech": "Ecology"
+  },
+  //Specialist
+   {
 		"name": "Theatre",
 		"happiness": 3,
 		"hurryCostModifier": 10,
@@ -69,7 +173,7 @@
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
-	{
+  {
 		"name": "Stadium",
 		"happiness": 4,
 		"specialistSlots": {"Entertainer": 1},
@@ -77,7 +181,18 @@
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
 	},
-	{
+  //National Wonder
+  {
+		"name": "Circus Maximus",
+		"cost": 125,
+		"happiness": 5,
+		"specialistSlots": {"Entertainer": 2},
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
+  {
 		"name": "Military Research Bureau",
 		"cost": 125,
 		"science": 4,
@@ -85,16 +200,7 @@
 		"requiredTech": "Scientific Theory",
 		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
 	},
-	{
-		"name": "Skunkworks",
-		"isWonder": true,
-		"science": 6,
-		"production": 6,
-		"isNationalWonder": true,
-		"requiredTech": "Computers",
-		"uniques": ["Provides [3] [Secret Project]"]
-	},
-	{
+{
 		"name": "Cloning Facility",
 		"cost": 1000,
 		"food": -6,
@@ -103,7 +209,7 @@
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[+200]% Production when constructing [Infantry] units [in this city]", "Destroyed when the city is captured", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
 	},
-	{
+{
 		"name": "ARENA Defense System",
 		"cost": 1500,
 		"isNationalWonder": true,
@@ -112,12 +218,41 @@
 		"cityHealth": 50,
 		"uniques": ["Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>"]
 	},
-	{
+{
 		"name": "Iron Curtain",
 		"cost": 2000,
 		"isNationalWonder": true,
 		"requiredTech": "Particle Physics",
 		"cityHealth": 200,
 		"uniques": ["Population loss from nuclear attacks [-100]% [in this city]", "Consumes [1] [Secret Project]", "Will not be displayed in Civilopedia", "Only available <with [Secret Project]>", "All newly-trained [Heavy Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion", "All newly-trained [Light Cavalry] units [in this city] receive the [Iron Curtain Force Field] promotion"]
-	}
-]
+	},
+  //World Wonder
+  {
+		"name": "Terracotta Army",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Construction",
+		"uniques": ["[2] free [Spearman] units appear", "[2] free [Composite Bowman] units appear"]
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+  {
+		"name": "Alhambra",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [{Land} {Melee}] units [in this city] receive the [Drill] promotion",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry",
+		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+	},
+{
+		"name": "Skunkworks",
+		"isWonder": true,
+		"science": 6,
+		"production": 6,
+		"isNationalWonder": true,
+		"requiredTech": "Computers",
+		"uniques": ["Provides [3] [Secret Project]"]
+	},
+ ]
