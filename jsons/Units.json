@@ -2099,6 +2099,22 @@
 		"attackSound": "bombing"
 	},
 	{
+"name": "Mothership",
+"unitType": "Air Helicopter",
+"range": 2,
+"movement": 4,
+"strength": 80,
+"rangedStrength": 70,
+"cost": 375,
+"requiredTech": "Plastics",
+"uniques": ["Can carry [1] [Air] units",
+		"Can carry [2] [Air Missile] units",
+		"Never appears as a Barbarian unit",
+		"All tiles cost 1 movement",
+		"Can see over obstacles", "Ignores zone of control",
+		"[+1] Sight","Consumes [1] [Secret Project]","Consumes [2] [Fuel]"],
+},
+	{
 		"name": "Carrier",
 		"unitType": "Naval Carrier",
 		"movement": 5,
@@ -2716,6 +2732,19 @@
 		"attackSound": "torpedo"
 	},
 	{
+"name": "Support Helicopter",
+"unitType": "Air Helicopter",
+"movement": 6,
+"strength": 50,
+"cost": 375,
+"requiredTech": "Telecommunications",
+"uniques": ["Cannot attack",
+		"Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
+		"All tiles cost 1 movement",
+		"All adjacent units heal [+20] HP when healing",]
+	"requiredResource": "Fuel"
+},
+	{
 		"name": "Drone Launch Vehicle",
 		"unitType": "Siege Carrier",
 		"movement": 2,
@@ -2764,6 +2793,32 @@
 		"requiredTech": "Mobile Tactics",
 		"attackSound": "machinegun"
 	},
+	{
+"name": "Land Carrier",
+"unitType": "Land Carrier",
+"range": 2,
+"movement": 1,
+"strength": 70,
+"rangedStrength": 90,
+"cost": 450,
+"requiredTech": "Mobile Tactics",
+"uniques": ["Can carry [2] [Air] units",
+		"Can carry [2] [Air Missile] units",
+		"Never appears as a Barbarian unit","Consumes [1] [Secret Project]","Consumes [1] [Uranium]"],
+},
+	{
+"name": "Quick Ops Helicopter",
+"unitType": "Helicopter",
+"movement": 6,
+"strength": 65,
+"cost": 325,
+"requiredTech": "Mobile Tactics",
+"uniques": ["Never appears as a Barbarian unit", "No defensive terrain bonus","Ignores zone of control",
+		"All tiles cost 1 movement",
+		"Can move after attacking",
+		"[+50]% Strength <when attacking>"],
+"requiredResource": "Fuel"
+},
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Light Cavalry",
@@ -2888,6 +2943,63 @@
 		"attackSound": "missile"
 	},
 	{
+"name": "Heavy Duty Helicopter",
+"unitType": "Helicopter",
+"movement": 5,
+"strength": 85,
+"interceptRange": 1,
+"range": 1,
+"rangedStrength": 85,
+"cost": 475,
+"requiredTech": "Advanced Ballistics",
+"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
+		"All tiles cost 1 movement",
+		"Can carry [1] [Guided Missile] units",
+		"[25]% chance to intercept air attacks",
+		"No defensive terrain bonus"],
+"promotions": ["Indirect Fire"]
+	"requiredResource": "Fuel"
+	},
+	{
+"name": "Napalm Artillery",
+"unitType": "Siege Ranged",
+"movement": 2,
+"strength": 45,
+"rangedStrength": 75,
+"range": 3,
+"cost": 475,
+"requiredTech": "Advanced Ballistics",
+"requiredResource": "Aluminum",
+"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Biohazard Matter]","[-30]% Strength <vs [Air Helicopter] units>","[-30]% Strength <vs [Water] units>","[-30]% Strength <vs [Heavy Cavalry] units>", "[-30]% Strength <vs [Light Cavalry] units>", "[-30]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[-30]% Strength <vs [Counter Cavalry] units>","Unavailable in cities without [Chemical Weapons Lab]"],
+"promotions": ["Indirect Fire"],
+"attackSound": "artillery"
+	},
+
+{
+"name": "Gas Missile",
+"unitType": "Air Missile",
+"range": 12,
+"movement": 1,
+"strength": 150,
+"rangedStrength": 150,
+"cost": 400,
+"requiredTech": "Advanced Ballistics",
+"requiredResource": "Biohazard Matter",
+},
+{
+"name": "Napalm Missile",
+"unitType": "Air Missile",
+"range": 8,
+"movement": 1,
+"strength": 200,
+"rangedStrength": 200,
+"cost": 500,
+"requiredTech": "Advanced Ballistics",
+"uniques": ["Blast radius [1]",
+		"Consumes [2] [Biohazard Matter]",
+		"Nuclear weapon of Strength [1]"]
+},
+	{
 		"name": "Arsenal Ship",
 		"unitType": "Naval Siege",
 		"movement": 6,
@@ -2989,6 +3101,20 @@
 		"uniques": ["[80]% chance to intercept air attacks", "[+50]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+50]% Strength <vs [Counter Cavalry] units>", "[+150]% Strength <vs [Air Helicopter] units>"],
 		"attackSound": "jetgun"
 	},
+	{
+"name": "Naval Helicopter",
+"unitType": "Air Helicopter",
+"movement": 6,
+"strength": 75,
+"cost": 450,
+"requiredTech": "Robotics",
+"uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus","Ignores zone of control",
+		"All tiles cost 1 movement",
+		"[+40%] strength <vs [Water] units>",
+		"Defense bonus when embarked"],
+"promotions": ["Amphibious"],
+"requiredResource": "Fuel"
+},
 	{
 		"name": "UAV",
 		"unitType": "Air Drone",
