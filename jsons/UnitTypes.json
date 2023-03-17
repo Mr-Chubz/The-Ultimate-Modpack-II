@@ -93,6 +93,10 @@
         "name": "Counter Cavalry",
         "movementType": "Land"
     },
+	{
+"name": "Land Carrier",
+"movementType": "Land"
+},
 
     //specialist
 
