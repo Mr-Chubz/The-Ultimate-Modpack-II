@@ -3611,6 +3611,12 @@
 		"movement": 2
 	},
 	{
+		"name": "Great Spacefarer",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [12]-turn golden age", "Can construct [Space Platform] <starting from the [Atomic era]>", "Great Person - [Spacefarer]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -3674,9 +3680,202 @@
 		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [1] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
-		],
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"],
 		"movement": 3
+	},
+//Time Machine Parts
+    {
+		"name": "Photon Generator",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [2] per Civilization"]
+	},
+	{
+		"name": "Causality Matrix",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Dimensional Shifter",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Entropy Phaser",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
 	}
+//Barbarians
+    {
+		"name": "Terrorist",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 65,
+		"cost": 240,
+		"requiredTech": "Plastics",
+		"uniques": ["[+75]% Strength <vs [Wounded] units>"]
+		"attackSound": "shot",
+	},
+	{
+		"name": "Outlaw",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Hacker",
+		"movement": 2,
+		"interceptRange": 2,
+		"range": 2,
+		"strength": 65,
+		"rangedStrength": 85,
+		"cost": 265,
+		"requiredTech": "The Internet",
+		"uniques": ["Can only attack [Cyber] units",
+		"[50]% chance to intercept air attacks"
+		"May capture killed [Cyber] units <with [33]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+50]% Strength <vs [Cyber] units> <when attacking>",
+		"[+35]% Strength <vs [Wounded] units>"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "Hit Squad",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"replaces": "Modern Armor",
+		"movement": 5,
+		"strength": 120,
+		"cost": 270,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Cyber","Can move after attacking","No defensive terrain bonus","[+45]% Strength <vs [Wounded] units>"],
+		"attackSound": "tankshot"
+	},
+//Aliens
+    {
+		"name": "Body Snatcher",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Barbarians",
+		"replaces": "Bio-Infantry",
+		"movement": 3,
+		"strength": 140,
+		"cost": 390,
+		"requiredTech": "Enhancing",
+		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Military] units <with [99]% chance>","Will not be displayed in Civilopedia"]
+		"promotions": ["Implants"]
+		"attackSound": "bite"
+	},
+	{
+		"name": "Monolith Body Snatcher",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 140,
+		"cost": 720,
+		"requiredTech": "Enhancing",
+		"uniques": ["Bio","Heals [25] damage if it kills a unit","May capture killed [Land] units <with [44]% chance>","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>","Never appears as a Barbarian unit"]
+		"promotions": ["Implants"]
+		"attackSound": "bite"
+	},
+	{
+		"name": "Brainiac",
+		"unitType": "Support",
+		"uniqueTo": "Barbarians",
+		"replaces": "Stealth Hacker",
+		"movement": 2,
+		"interceptRange": 5,
+		"strength": 140,
+		"cost": 400,
+		"requiredTech": "Automation",
+		"uniques": ["Hacker",
+		"+33% Strength for adjacent non-air Units vs Cyber units",
+		"25% Chance for Adjacent units to capture Killed Cyber unit"
+		"Can see invisible [All] units",
+		"Invisible to non-adjacent units",
+		"[50]% chance to intercept air attacks",
+		"May capture killed [Land] units <with [75]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+50]% Strength <vs [Land] units> <when attacking>",
+		"Will not be displayed in Civilopedia"]
+		"promotions": ["Support Unit"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "Monolith Brainiac",
+		"unitType": "Support",
+		"movement": 2,
+		"interceptRange": 5,
+		"range": 3,
+		"strength": 140,
+		"cost": 800,
+		"requiredTech": "Nanotechnology",
+		"requiredBuilding": "Monolith Portal",
+		"uniques": ["Hacker",
+		"+33% Strength for adjacent non-air Units vs Cyber units",
+		"25% Chance for Adjacent units to capture Killed Cyber unit"
+		"Can see invisible [Stealth Support] units",
+		"Invisible to non-adjacent units",
+		"[50]% chance to intercept air attacks",
+		"May capture killed [Land] units <with [30]% chance>",
+		"[+50]% Strength <vs [Cyber] units>",
+		"[+25]% Strength <vs [Land] units> <when attacking>",	
+		"Will not be displayed in Civilopedia",
+		"Only available <if [Monolith Portal] is constructed>",
+		"Never appears as a Barbarian unit"]
+		"promotions": ["Support Unit"],
+		"attackSound": "Hacking"
+	},
+	{
+		"name": "UFO",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"replaces": "Hovertank",
+		"movement": 5,
+		"strength": 185,
+		"cost": 680,
+		"requiredTech": "Nanotechnology",
+		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [55]% chance>","Will not be displayed in Civilopedia"],
+		"promotions": ["Firewall","Amphibious","Gravity Generator"]
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Monolith UFO",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 185,
+		"cost": 1180,
+		"requiredBuilding": "Monolith Portal",
+		"requiredTech": "Nanotechnology",
+		"uniques": ["Cyber","Can move after attacking","Uncapturable","[+100]% Strength <vs [Air] units>","May capture killed [Land] units <with [22]% chance>","Never appears as a Barbarian unit","Will not be displayed in Civilopedia","Only available <if [Monolith Portal] is constructed>"],
+		"promotions": ["Firewall","Amphibious","Gravity Generator"]
+		"attackSound": "gdrAttack"
+	},
+
+//Spaceship
+{
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
+	},
 
 ]
