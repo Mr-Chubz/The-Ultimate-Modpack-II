@@ -11,6 +11,69 @@
 		"unitTypes": ["Civilian"]
 	},
 
+//Effects
+	{
+		"name": "Stealth",
+		"uniques": ["Invisible to non-adjacent units"]
+	},
+	{
+		"name": "Amphibious",
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked"]
+	},
+	{
+		"name": "Hovering",
+		"uniques": ["[0] Movement point cost to disembark","[0] Movement point cost to embark","Ignores terrain cost"]
+	},
+	{
+		"name": "Rocket Launcher",
+		"uniques": ["[+35]% Strength <vs [Cyber] units>","[+75]% Strength <vs cities>"]
+	},
+	{
+		"name": "Firewall",
+		"uniques": ["[+33]% Strength <when defending>"]
+	},
+	{
+		"name": "Heat Sensor",
+		"uniques": ["[+200]% Strength <vs [Stealth Bomber] units>"]
+	},
+	{
+		"name": "Implants",
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+	},
+	{
+		"name": "Scan Visor",
+		"uniques": ["Can see invisible [All] units"]
+	},
+	{
+		"name": "Energy Weapons",
+		"uniques": ["[+40]% Strength <vs [Bio] units>","[+40]% Strength <vs [Cyber] units>"]
+	},
+	{
+		"name": "Gravity Generator",
+		"uniques": ["[-25]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "In Orbit",
+		"uniques": ["[+25]% Strength <vs [Land] units>"]
+	},
+	{
+		"name": "Energy Shield",
+		"uniques": ["[+20]% Strength <when defending>","[+20]% Strength <vs [Ranged] units>","[+100]% Strength <vs [Missile] units>"]
+	},
+	{
+		"name": "Teleportation",
+		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory","May withdraw before melee ([20]%)"]
+	},
+	{
+		"name": "Support Unit",
+		"uniques": ["Cannot attack"]
+	},
+	{
+		"name": "Skirmish",
+		"uniques": ["May withdraw before melee ([33]%)"]
+	},
+
+
 	//Infantry
 	{
 		"name": "Bayonet Charge",
@@ -754,48 +817,6 @@
 		"prerequisites": ["Auxiliary Ships", "Proximity Defense System"],
 		"unitTypes": ["Naval Ranged"]
 	},
-	
-	//Naval Escort
-	{
-		"name": "Preempted Routing",
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Naval Escort"]
-	},
-	{
-		"name": "Old Ironside",
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Naval Escort"]
-	},
-	{
-		"name": "Holdfast",
-		"uniques": ["[+25]% Strength <vs [Air] units>"],
-		"prerequisites": ["Preempted Routing", "Old Ironside"],
-		"unitTypes": ["Naval Escort"]
-	},
-	{
-		"name": "Let 'em Have It",
-		"uniques": ["[+25]% Strength <vs [Water] units>"],
-		"prerequisites": ["Preempted Routing", "Old Ironside"],
-		"unitTypes": ["Naval Escort"]
-	},
-	{
-		"name": "Hotfix",
-		"uniques": ["May heal outside of friendly territory"],
-		"prerequisites": ["Let 'em Have It", "Holdfast"],
-		"unitTypes": ["Naval Escort"]
-	},
-	{
-		"name": "Seafaring Spyglass",
-		"uniques": ["[+1] Sight"],
-		"prerequisites": ["Let 'em Have It", "Holdfast"],
-		"unitTypes": ["Naval Escort"]
-	},
-	{
-		"name": "Improved Threat Detection",
-		"uniques": ["[+30]% Strength <vs [Air] units> <when defending>", "[+15]% Strength <vs [Melee] units> <when defending>"],
-		"prerequisites": ["Hotfix", "Seafaring Spyglass"],
-		"unitTypes": ["Naval Escort"]
-	},
 
 	//Naval Raider and Submarine
 	{
@@ -844,46 +865,46 @@
 		"unitTypes": ["Naval Raider", "Naval Submarine"]
 	},
 
-	//Naval Carrier
+	//Naval Carrier and Land Carrier
 	{
 		"name": "Extended Flight Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Radar Dome",
 		"uniques": ["[+2] Sight"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Hanger Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"prerequisites": ["Extended Flight Deck"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Defensive Systems",
 		"uniques": ["[+20]% Strength <when defending>"],
 		"prerequisites": ["Radar Dome"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Secondary Flight Deck",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"prerequisites": ["Hanger Deck"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Close Range AA Defense",
 		"uniques": ["[+25]% Strength <vs [Air] units> <when defending>"],
 		"prerequisites": ["Defensive Systems"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 	{
 		"name": "Mobile Strategic Airbase",
 		"uniques": ["May heal outside of friendly territory", "Unit will heal every turn, even if it performs an action"],
 		"prerequisites": ["Close Range AA Defense", "Secondary Flight Deck"],
-		"unitTypes": ["Naval Carrier"]
+		"unitTypes": ["Naval Carrier","Land Carrier"]
 	},
 
 	//Air Fighter
@@ -1137,140 +1158,4 @@
 		"prerequisites": ["Air Cover Support", "Stealth Coating"],
 		"unitTypes": ["Air Drone"]
 	},
-
-
-
-
-
-
-	// Uniques that should be kept on upgrades
-	{
-		"name": "Morale", // Heroic Epic
-		"uniques": ["[+15]% Strength"]
-	},
-	{
-		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
-		"uniques": ["[Great General] is earned [50]% faster"]
-	},
-	{
-		"name": "Great Generals II", // only for Samurai and subsequent upgrades
-		"uniques": ["[Great General] is earned [100]% faster"]
-	},
-	{
-		"name": "Quick Study", // only for Keshik and subsequent upgrades
-		"uniques": ["[+50]% XP gained from combat"]
-	},
-	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
-	},
-	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["All healing effects doubled"]
-	},
-	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
-	},
-	{
-		"name": "Ignore terrain cost",
-		"uniques": ["Ignores terrain cost"]
-	},
-	{
-		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
-	},
-	{
-		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
-		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
-	},
-	{
-		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
-	},
-	{
-		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
-	},
-	{
-		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing"]
-	},
-	{
-		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
-	},
-	{
-		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
-	},
-	{
-		"name": "[Sipahi] ability",
-		"uniques": ["No movement cost to pillage"]
-	},
-	{
-		"name": "[Cossack] ability",
-		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
-	},
-	{
-		"name": "[Chu-Ko-Nu] ability",
-		"uniques": ["[1] additional attacks per turn"]
-	},
-	{
-		"name": "[Longbowman] ability",
-		"uniques": ["[+1] Range"]
-	},
-	{
-		"name": "[Samurai] ability",
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>"]
-	},
-	{
-		"name": "[Berserker] ability",
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
-	},
-	{
-		"name": "[Minuteman] ability",
-		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>"]
-	},
-	{
-		"name": "[Hussar] ability",
-		"uniques": ["[+50]% to Flank Attack bonuses"]
-	},
-	{
-		"name": "[Norwegian Ski Infantry] ability",
-		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
-			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Hill] tiles>",
-			"Double movement in [Snow]",
-			"Double movement in [Tundra]",
-			"Double movement in [Hill]"]
-	},
-	{
-		"name": "[Carolean] ability",
-		"uniques": ["Unit will heal every turn, even if it performs an action"]
-	},
-	{
-		"name": "[Hakkapeliitta] ability",
-		"uniques": ["Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"]
-	},
-	{
-		"name": "[B17] ability",
-		"uniques": ["Damage taken from interception reduced by [30]%", "[+33]% Strength <vs cities>"]
-	},
-	{
-		"name": "[Zero] ability",
-		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
-	},
-	{
-		"name": "UAV",
-		"uniques": ["[-50]% maintenance costs", "Damage taken from interception reduced by [50]%", "[+20]% Strength when stacked with [Siege Carrier]"]
-	},
-	{
-		"name": "Drill",
-		"uniques": ["[+20]% Strength <in [Rough terrain] tiles>"]
-	},
-	{
-		"name": "Iron Curtain Force Field",
-		"uniques": ["[+50]% Strength <when defending>"]
-	}
 ]
