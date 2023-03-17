@@ -50,7 +50,7 @@
 		"cityHealth": 15,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["May buy [Routiers] units with [Gold] for [1] times their normal Production cost","May buy [Free Company] units with [Gold] for [1] times their normal Production cost","May buy [Mercenaries] units with [Gold] for [1] times their normal Production cost","May buy [Modern Mercenaries] units with [Gold] for [1] times their normal Production cost"],
+		"uniques": ["May buy [Routiers] units with [Gold] [in this city]","May buy [Free Company] units with [Gold] [in this city]","May buy [Mercenaries] units with [Gold] [in this city]","May buy [Modern Mercenaries] units with [Gold] [in this city]"],
 		"requiredTech": "Civil Service"
 	},
   {
@@ -389,7 +389,7 @@
 "cost": 275,
 "specialistSlots": {"Scientist": 1},
 "maintenance": 2,
-"uniques": ["Provides [2] [Biohazard Matter]"],
+"uniques": ["Provides [2] [Biohazard Matter]","May construct [Chemical Artillery] units [in this city]","May construct [Napalm Artillery] units [in this city]"],
 "requiredTech": "Biology"
 },
 {
