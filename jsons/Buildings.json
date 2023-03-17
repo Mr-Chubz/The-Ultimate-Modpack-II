@@ -142,6 +142,14 @@
     "hurryCostModifier": 20,
     "requiredTech": "Biology"
   },
+{
+"name": "Food Processing Plant",
+"production": 2,
+"maintenance": 1,
+"hurryCostModifier": 0,
+"uniques": ["[20]% Food is carried over after population increases [in this city]","Consumes [1] [Biohazard Matter]"],
+"requiredTech": "Refrigeration"
+	},
   {
 		"name": "Coastal Battery",
 		"cost": 400,
@@ -173,6 +181,15 @@
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
 	},
+{
+"name": "Chemical Weapons Lab",
+"science": 2,
+"cost": 275,
+"specialistSlots": {"Scientist": 1},
+"maintenance": 2,
+"uniques": ["Provides [2] [Biohazard Matter]"],
+"requiredTech": "Biology"
+},
   {
 		"name": "Stadium",
 		"happiness": 4,
@@ -181,6 +198,16 @@
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
 	},
+{
+"name": "Fuel Refinery",
+"production": 3,
+"cost": 300,
+"specialistSlots": {"Engineer": 1},
+"greatPersonPoints": {"Great Engineer": 1},
+"maintenance": 3,
+"uniques": ["Consumes [3] [Oil]", "Provides [2] [Fuel]"],
+"requiredTech": "Combustion"
+},
   //National Wonder
   {
 		"name": "Circus Maximus",
@@ -199,6 +226,14 @@
 		"isNationalWonder": true,
 		"requiredTech": "Scientific Theory",
 		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
+	},
+ {
+"name": "National Health Organization",
+"cost": 125,
+"science": 1,
+"isNationalWonder": true,
+"uniques": ["Requires a [Hospital] in all cities","[+15]% Food <in all cities>", "Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
+"requiredTech": "Biology"
 	},
 {
 		"name": "Cloning Facility",
