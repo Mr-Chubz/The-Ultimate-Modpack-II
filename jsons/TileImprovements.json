@@ -1,4 +1,26 @@
 [
+ 	 {
+		"name": "Chicken Coop",
+		"food": 2,
+	  	"gold": 2,
+	  	"happiness": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Animal Husbandry",
+		"improvingTech": "Industrialization",
+		"improvingTechStats": {"prdouction":2}
+	  	"uniques": ["Can only be built to improve a resource"],
+	},
+	{
+		"name": "Apiary",
+		"food": 2,
+		"gold": 2,
+		"happiness": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"improvingTech": "Industrialization",
+		"improvingTechStats": {"production":2}
+		"uniques": ["Can only be built to improve a resource"],
+	}
 	{
 		"name": "Trench",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
