@@ -322,7 +322,7 @@
 		"rangedStrength": 11,
 		"cost": 70,
 		"requiredTech": "Trapping",
-		"requiredResource": "Ivory",
+		"requiredResource": "Elephants",
 		"upgradesTo": "Armored War Elephant",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
@@ -335,7 +335,7 @@
 		"strength": 10,
 		"cost": 50,
 		"requiredTech": "Trapping",
-		"requiredResource": "Ivory",
+		"requiredResource": "Elephants",
 		"upgradesTo": "Armored Elephant",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus","[+20]% Strength <vs cities> <when attacking>","[+30]% Strength <vs [Infantry] units> <when attacking>"],
@@ -647,6 +647,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Siege Tower", 
+		"unitType": "Siege Melee",
+		"replaces": "Catapult",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75, 
+		"hurryCostModifier": 20,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Can only attack [City] units","[-1] [Sight]"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Catapult",
 		"unitType": "Siege Ranged",
 		"movement": 2,
@@ -807,7 +821,7 @@
 		"movement": 3,
 		"strength": 12,
 		"cost": 30,
-		"uniques": ["May upgrade to [Pikeman] through ruins-like effects", "Never appears as a Barbarian unit", "[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
+		"uniques": ["May upgrade to [Pikeman] through ruins-like effects","Never appears as a Barbarian unit","[+100]% Strength <vs [Barbarian] units> <when fighting in [Friendly Land] tiles>", "[-50]% Strength <when fighting in [Foreign Land] tiles>", "[-75]% maintenance costs", "[-2] Movement <in [Foreign Land] tiles>"],
 		"upgradesTo": "Militiaman",
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Printing Press",
@@ -821,10 +835,10 @@
 		"rangedStrength": 18,
 		"cost": 160,
 		"requiredTech": "Chivalry",
-		"requiredResource": "Ivory",
+		"requiredResource": "Elephants",
 		"upgradesTo": "Horse Artillery",
 		"obsoleteTech": "Combustion",
-		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]","[+20]% Strength <vs cities> <when attacking>"],
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]","[+20]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "elephant"
 	},
 	{
@@ -834,10 +848,10 @@
 		"strength": 27,
 		"cost": 150,
 		"requiredTech": "Physics",
-		"requiredResource": "Ivory",
+		"requiredResource": "Elephants",
 		"upgradesTo": "Cuirasser",
 		"obsoleteTech": "Combustion",
-		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]","[+35]% Strength <vs cities> <when attacking>","[+30]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["No defensive terrain bonus","Consumes [1] [Iron]","[+35]% Strength <vs cities> <when attacking>","[+30]% Strength <vs [Infantry] units> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "elephant"
 	},
 	{
@@ -978,7 +992,7 @@
 	},
 	{
 		"name": "Camel Archer",
-		"replaces": "Knight",
+		"replaces": "Heavy Camel Bowman",
 		"uniqueTo": "Arabia",
 		"unitType": "Ranged Cavalry",
 		"movement": 4,
@@ -1215,7 +1229,14 @@
 	},
 
 	// Rennaisance Era
-
+	{
+		"name": "Diplomat",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving [50] Influence"],
+		"movement": 2
+		"cost":275,
+		"requiredTech": "Printing Press",
+	},
 	{
 		"name": "Caravel",
 		"unitType": "Naval Melee",
