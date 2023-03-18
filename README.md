@@ -23,7 +23,7 @@ V:1.0
             - Double checking structures and wonders for identity deprications
         - [Diplomats,] Siege Towers,* and Caravans* will be implemented (Needs work) 1.01
             - Edits to horse and camel structures*
-            - [Edit siege units]
+            - Edit siege units*
         - Trench construction will be universal accross infantry units (Needs further discussion) 1.02 
             - Mercenary branch will be separated from anti-cav
             - Trenches will be constructed faster 
