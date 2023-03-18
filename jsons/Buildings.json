@@ -389,7 +389,7 @@
 "cost": 275,
 "specialistSlots": {"Scientist": 1},
 "maintenance": 2,
-"uniques": ["Provides [2] [Biohazard Matter]","May construct [Chemical Artillery] units [in this city]","May construct [Napalm Artillery] units [in this city]"],
+"uniques": ["Provides [2] [Biohazard Matter]","May build [Chemical Artillery] units [in this city]","May build [Napalm Artillery] units [in this city]"],
 "requiredTech": "Biology"
 },
 {
@@ -568,7 +568,7 @@
 "cost": 125,
 "science": 1,
 "isNationalWonder": true,
-"uniques": ["Requires a [Hospital] in all cities","[+15]% Food <in all cities>", "Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
+"uniques": ["Requires a [Hospital] [in all cities]","[+15]% Food [in all cities]","Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
 "requiredTech": "Biology"
 	},
 {
