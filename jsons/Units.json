@@ -649,7 +649,6 @@
 	{
 		"name": "Siege Tower", 
 		"unitType": "Siege Melee",
-		"replaces": "Catapult",
 		"movement": 2,
 		"strength": 12,
 		"cost": 75, 
