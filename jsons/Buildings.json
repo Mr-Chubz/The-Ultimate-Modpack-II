@@ -583,15 +583,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Scientific Theory",
 		"uniques": ["Destroyed when the city is captured", "Cost increases by [30] per owned city", "Provides [2] [Secret Project]"]
-	},
- {
-"name": "National Health Organization",
-"cost": 125,
-"science": 1,
-"isNationalWonder": true,
-"uniques": ["Requires a [Hospital] [in all cities]","[+15]% Food [in all cities]","Cost increases by [30] per owned city","[Consumes [2] [Biohazard Matter]"],
-"requiredTech": "Biology"
-	},
+  },
 {
 		"name": "Cloning Facility",
 		"cost": 1000,
