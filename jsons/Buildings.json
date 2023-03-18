@@ -10,8 +10,8 @@
         "name": "Mahout",
         "hurryCostModifier": 25,
         "uniques": ["[+1 Gold] for every [3] population [in this city]","Provides [3] [Elephants]"],
-	"requiredResource": "Trapping",
-        "requiredTech": "Animal Husbandry"
+	"requiredResource": "Ivory",
+        "requiredTech": "Trapping"
   },
  {
         "name": "Elephant Houdah",
