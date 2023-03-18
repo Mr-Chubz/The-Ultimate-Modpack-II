@@ -850,6 +850,13 @@
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
+	{
+		"name": "Elephants",
+		"resourceType": "Strategic",
+		"revealedBy": "Trapping",
+		"production": 1
+		"gold": 1
+	},
   {
 		"name": "Secret Project",
 		"resourceType": "Strategic",
@@ -857,14 +864,17 @@
 		"science": 1
 	},
 {
-"name": "Fuel",
-"resourceType": "Strategic"
+	"name": "Fuel",
+	"resourceType": "Strategic"
+	"revealedBy": "Combustion",
+	"production": 1
 },
 
 {
-"name": "Biohazard Matter",
-"resourceType": "Strategic",
-"food": 1
+	"name": "Biohazard Matter",
+	"resourceType": "Strategic",
+	"revealedBy": "Biology",
+	"food": 1
 },
 {
 		"name": "Power",
