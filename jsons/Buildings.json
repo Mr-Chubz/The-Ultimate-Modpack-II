@@ -6,6 +6,27 @@
         "uniques": ["[+1 Gold] for every [2] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Horses]"],
         "requiredTech": "Animal Husbandry"
   },
+ {
+        "name": "Mahout",
+        "hurryCostModifier": 25,
+        "uniques": ["[+1 Gold] for every [3] population [in this city]","Provides [3] [Elephants]"],
+	"requiredResource": "Trapping",
+        "requiredTech": "Animal Husbandry"
+  },
+ {
+        "name": "Elephant Houdah",
+        "hurryCostModifier": 25,
+        "uniques": ["[+2 Happiness] for every [3] population [in this city]", "+[15]% [Gold] [in this city]", "Consumes [1] [Elephants]"],
+        "requiredTech": "Animal Husbandry"
+  },
+ {
+        "name": "Caravan",
+        "hurryCostModifier": 25,
+        "happiness": 2,
+        "uniques": ["Consumes [1] [Camel]","[+10]% Food, [+10]% Gold from every [Trade route] [in this city]","[+1 Gold] from [Trading post] tiles"],
+        "requiredTech": "Animal Husbandry"
+	"requiredBuilding": "Palace",
+},
   {
         "name": "Work Horses",
         "hurryCostModifier": 25,
@@ -17,7 +38,7 @@
         "name": "Work Camels",
         "hurryCostModifier": 25,
         "happiness": 2,
-        "uniques": ["[+1 Food] for every [3] population [in this city]", "[+5]% [Food] [in this city]", "Consumes [1] [Camel]","[+10]% Food, [+10]% Gold from every [Trade route] [in this city]","[+2 Gold] from [Trading post] tiles [in this city]"],
+        "uniques": ["[+1 Food] for every [3] population [in this city]", "[+5]% [Gold] [in this city]", "Consumes [1] [Camel]","[+2 Gold] from [Trading post] tiles [in this city]","[+1 Production] from [Mine] tiles [in this city]"],
         "requiredTech": "The Wheel"
 },
   {
