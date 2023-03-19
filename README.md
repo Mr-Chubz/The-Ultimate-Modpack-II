@@ -15,17 +15,17 @@ Credited Mods:
 V:1.0
     
    Anticipated Edits:
-        - Mounted and Armored tags will be implemented as uniques (Yet to begin) 1.1
-            - Divide armor and mounted experience buildings
-            - Divide armor and mounted buffs
+        - Mounted and Armored tags will be implemented as uniques (Update upgrades) 1.1
+            - Divide armor and mounted experience buildings*
+            - Divide armor and mounted buffs*
             - Update the upgrade process
         - Stronghold and Chemical Artillery units need an update (Complete!) 1.01
             - Double checking structures and wonders for identity deprications
-        - [Diplomats,] Siege Towers,* and Caravans* will be implemented (Needs work) 1.01
+        - [Diplomats,] Siege Towers,* and Caravans* will be implemented (Diplomat dysfunctional) 1.01
             - Edits to horse and camel structures*
             - Edit siege units*
-        - Trench construction will be universal accross infantry units (Needs further discussion) 1.02 
-            - Mercenary branch will be separated from anti-cav
+        - Trench construction will be universal accross infantry units (Buff improvements) 1.02 
+            - Mercenary branch will be separated from anti-cav*
             - Trenches will be constructed faster 
             - Forts will be buffed
                //How should this be implemented? What units should be able to do this?
