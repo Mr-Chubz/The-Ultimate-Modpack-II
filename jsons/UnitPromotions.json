@@ -1285,6 +1285,14 @@
 		"uniques": ["[+20]% Strength <in [Rough terrain] tiles>"]
 	},
 	{
+		"name": "Trench Warfare",
+		"uniques": ["Can build [Trench] improvements on tiles"]
+	},
+	{
+		"name": "Storm The Trenches",
+		"uniques": ["[+15]% Strength <when attacking> <in [Trench] tiles>"]
+	},
+	{
 		"name": "Iron Curtain Force Field",
 		"uniques": ["[+50]% Strength <when defending>"]
 	}
