@@ -25,6 +25,11 @@
         "movementType": "Land"
     },
     {
+        "name": "Mercenary",
+	"uniques": ["Unbuildable"],
+        "movementType": "Land"
+    },
+    {
         "name": "Recon",
 	"uniques": ["Ignores terrain cost", "Can see invisible [Land] units"],
         "movementType": "Land"
