@@ -1050,7 +1050,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
-		"uniques": "Mounted",["Can move after attacking","No defensive terrain bonus", "[+40]% Strength <vs [Mounted] units>"],
+		"uniques": ["Mounted","Can move after attacking","No defensive terrain bonus", "[+40]% Strength <vs [Mounted] units>"],
 		"attackSound": "horse"
 	},
 	{
