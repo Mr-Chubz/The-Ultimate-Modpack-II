@@ -24,9 +24,19 @@
 	{
 		"name": "Trench",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 3,
+		"turnsToBuild": 2,
 		"techRequired": "Military Science",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [30]%"],
+	},
+{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [80]%","Adjacent enemy units ending their turn take [10] damage"]
+
+],
+		"shortcutKey": "O"
 	},
     {
 		"name": "Farm",
@@ -499,8 +509,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
-			"Provides [1] [General Perk] <starting from the [Industrial era]>"
-			"Gives a defensive bonus of [100]%",
+			"Unpillageable",
+			"Gives a defensive bonus of [160]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
         	"Constructing it will take over the tiles around it and assign them to your closest city",
