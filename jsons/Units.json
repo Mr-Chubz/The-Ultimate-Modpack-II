@@ -3135,7 +3135,7 @@
 "cost": 475,
 "requiredTech": "Advanced Ballistics",
 "requiredResource": "Aluminum",
-"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Biohazard Matter]","[-30]% Strength <vs [Air Helicopter] units>","[-30]% Strength <vs [Water] units>","[-30]% Strength <vs [Armored] units>","[-1] [Sight]"],
+"uniques": ["[+200]% Strength <vs cities> <when attacking>","Only available <if [Chemical Weapons Lab] is constructed>","No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Biohazard Matter]","[-30]% Strength <vs [Air Helicopter] units>","[-30]% Strength <vs [Water] units>","[-30]% Strength <vs [Armored] units>","[-1] [Sight]"],
 "promotions": ["Indirect Fire"],
 "attackSound": "artillery"
 	},
