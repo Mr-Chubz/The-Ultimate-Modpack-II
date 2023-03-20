@@ -15,9 +15,9 @@ Credited Mods:
 V:1.0
     
    Anticipated Edits:
-        - Mounted and Armored tags will be implemented as uniques (Update upgrades) 1.1
-            - Divide armor and mounted experience buildings*
-            - Divide armor and mounted buffs*
+        - Mounted and Armored tags will be implemented as uniques (Complete!) 1.1
+            - Divide armor and mounted experience buildings
+            - Divide armor and mounted buffs
             - Update the upgrade process
         - Stronghold and Chemical Artillery units need an update (Complete!) 1.01
             - Double checking structures and wonders for identity deprications
