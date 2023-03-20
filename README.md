@@ -16,8 +16,8 @@ V:1.0
     
    Anticipated Edits:
         -Rebalance improvements
-        -Fix Diplomat
-        -Clean upgrades as much as possible
+        -Fix Diplomat*
+        -Clean upgrades as much as possible*
         -Update: The Barbarians
         -Update: The Future
     
