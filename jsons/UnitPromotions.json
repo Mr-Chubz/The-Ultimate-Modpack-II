@@ -1286,11 +1286,19 @@
 	},
 	{
 		"name": "Trench Warfare",
+		"unitTypes": ["Infantry","Anti Cavalry","Siege Melee",]
 		"uniques": ["Can build [Trench] improvements on tiles"]
+		"requiredTech": "Military Science",
 	},
 	{
 		"name": "Storm The Trenches",
 		"uniques": ["[+15]% Strength <when attacking> <in [Trench] tiles>"]
+	},
+	{
+		"name": "Reactive Armor",
+		"unitTypes": ["Heavy Cavalry",]
+		"uniques": ["[+20]% Strength <vs [Armored] units>"],
+		"requiredTech": "Lasers",
 	},
 	{
 		"name": "Iron Curtain Force Field",
