@@ -12,13 +12,13 @@ Credited Mods:
     
     This mod is intended for the slow-paced strategic player and is mainly designed to be cool as opposed to balanced. While it's not intended to be wretchedly unbalanced, it is tilted when it comes to access to resources. A player in a warm region will completely outclass a tundra region player in the early game, and the odds will likely remain in their favor forever. Make sure you plan ahead.
     
-V:1.0
+V:1.1
     
    Anticipated Edits:
-        -Rebalance improvements
-        -Fix Diplomat*
-        -Clean upgrades as much as possible*
-        -Update: The Barbarians
+        -Rebalance improvements (Complete!)
+        -Fix Diplomat (Complete!)
+        -Clean upgrades as much as possible (Complete!)
+        -Update: The Barbarians -Add Wayfinder + Suicider, Increase Barbarian difficulty
         -Update: The Future
     
     
