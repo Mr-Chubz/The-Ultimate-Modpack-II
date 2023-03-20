@@ -8,6 +8,7 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         "All [Diplomat] units can undertake a trade mission with City-State, giving [50] Influence",
+        "Can gift [50] Infulence <by consuming [Diplomat] units>"
 
         // TODO: Implement the uniques below
         // "[+20]% [Culture] [in all cities] <during a golden age>",
