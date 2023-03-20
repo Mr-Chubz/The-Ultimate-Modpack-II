@@ -1296,8 +1296,8 @@
 	},
 	{
 		"name": "Reactive Armor",
-		"unitTypes": ["Heavy Cavalry",]
-		"uniques": ["[+20]% Strength <vs [Armored] units>"],
+		"unitTypes": ["Heavy Cavalry"]
+		"uniques": ["[+20]% Strength <vs [Armored] units>","Ignores zone of control"],
 		"requiredTech": "Mobile Tactics",
 	},
 	{
