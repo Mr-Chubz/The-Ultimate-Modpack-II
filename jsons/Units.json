@@ -656,7 +656,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Can only attack [City] units","[-1] [Sight]"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit","Can only attack [City] units","[-1] [Sight]"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -2714,6 +2714,7 @@
 		"range": 3,
 		"cost": 425,
 		"requiredTech": "Rocketry",
+		"upgradesTo": "Hovertillery",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","[-1] [Sight]"],
 		"promotions": ["Indirect Fire"],
@@ -2756,6 +2757,7 @@
 		"strength": 65,
 		"cost": 425,
 		"requiredTech": "Rocketry",
+		"upgradesTo": "Hover-SAM",
 		"uniques": ["+20% Strength to adjacent Land Units vs Air units","[80]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
@@ -2988,6 +2990,7 @@
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
+		"upgradesTo": "Assault Hovercraft",
 		"uniques": ["Armored","Can move after attacking", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -3218,6 +3221,7 @@
 		"strength": 100,
 		"cost": 475,
 		"requiredTech": "Lasers",
+		"upgradesTo": "Hovertank",
 		"requiredResource": "Aluminum",
 		"uniques": ["Armored","Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
