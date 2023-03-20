@@ -1284,6 +1284,7 @@
 		"name": "Drill",
 		"uniques": ["[+20]% Strength <in [Rough terrain] tiles>"]
 	},
+/*
 	{
 		"name": "Trench Warfare",
 		"unitTypes": ["Infantry","Anti Cavalry","Siege Melee",]
@@ -1299,6 +1300,7 @@
 		"unitTypes": ["Heavy Cavalry"]
 		"uniques": ["[+20]% Strength <vs [Armored] units>","Ignores zone of control","Only available <after [Mobile Tactics] is researched>"],
 	},
+*/
 	{
 		"name": "Iron Curtain Force Field",
 		"uniques": ["[+50]% Strength <when defending>"]
