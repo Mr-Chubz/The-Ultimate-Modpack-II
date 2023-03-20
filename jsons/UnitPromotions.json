@@ -1287,7 +1287,7 @@
 	{
 		"name": "Trench Warfare",
 		"unitTypes": ["Infantry","Anti Cavalry","Siege Melee",]
-		"uniques": ["Can build [Trench] improvements on tiles"]
+		"uniques": ["Can build [Trench] improvements on tiles","Only available <if [Military Science] is researched>",]
 		"requiredTech": "Military Science",
 	},
 	{
@@ -1297,8 +1297,7 @@
 	{
 		"name": "Reactive Armor",
 		"unitTypes": ["Heavy Cavalry"]
-		"uniques": ["[+20]% Strength <vs [Armored] units>","Ignores zone of control"],
-		"requiredTech": "Mobile Tactics",
+		"uniques": ["[+20]% Strength <vs [Armored] units>","Ignores zone of control","Only available <if [Mobile Tactics] is researched>"],
 	},
 	{
 		"name": "Iron Curtain Force Field",
