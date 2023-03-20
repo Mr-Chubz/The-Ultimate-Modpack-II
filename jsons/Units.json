@@ -656,7 +656,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Medieval Siege Tower",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit","Can only attack [City] units","[-1] [Sight]"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit","Can only attack [City] units","[-1] Sight"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -670,7 +670,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] [Sight]"],
+			"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -687,7 +687,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] [Sight]"],
+			"Must set up to ranged attack","[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -1137,7 +1137,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Grenadier",
-		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit","[-1] [Sight]"],
+		"uniques": ["[+100]% Strength <vs cities>", "No defensive terrain bonus", "Can only attack [City] units", "Never appears as a Barbarian unit","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -1150,7 +1150,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Bombard Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit","[-1] [Sight]"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -1165,7 +1165,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Bombard Cannon",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] [Sight]"],
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
 		"attackSound": "throw"
 	},
 	{
@@ -1610,7 +1610,7 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit","[-1] [Sight]"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit","[-1] Sight"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1625,7 +1625,7 @@
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit","[-1] [Sight]"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","Never appears as a Barbarian unit","[-1] Sight"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1957,7 +1957,7 @@
 		"upgradesTo": "Heavy Howitzer",
 		"obsoleteTech": "Ballistics",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] [Sight]"],
+			"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] Sight"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -2014,7 +2014,7 @@
 "upgradesTo": "Napalm Artillery",
 "obsoleteTech": "Advanced Ballistics",
 "uniques": ["Only available <if [Chemical Weapons Lab] is constructed>","[+140]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-80]% Strength <vs [Air Helicopter] units>","[-40]% Strength <vs [Water] units>","[-40]% Strength <vs [Armored] units>",
-	"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] [Sight]"],
+	"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] Sight"],
 "promotions": ["Indirect Fire"],
 "attackSound": "artillery"
 },
@@ -2275,7 +2275,7 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] [Sight]"],
+			"Must set up to ranged attack", "Never appears as a Barbarian unit","[-1] Sight"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -2717,7 +2717,7 @@
 		"requiredTech": "Rocketry",
 		"upgradesTo": "Hovertillery",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","[-1] [Sight]"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus", "Never appears as a Barbarian unit","[-1] Sight"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -2885,7 +2885,7 @@
 		"cost": 425,
 		"requiredTech": "Telecommunications",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Air Missile] units", "Can carry [1] [Air Nuke Missile] units", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Advanvced Nuclear Submarine",
+		"upgradesTo": "Advanced Nuclear Submarine",
 		"attackSound": "torpedo"
 	},
   	  {
