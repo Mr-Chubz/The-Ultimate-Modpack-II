@@ -1292,7 +1292,7 @@
 	},
 	{
 		"name": "Storm The Trenches",
-		"uniques": ["[+15]% Strength <when attacking> <in [Trench] tiles>"]
+		"uniques": ["[+15]% Strength <vs [Trench] tiles>"]
 	},
 	{
 		"name": "Reactive Armor",
