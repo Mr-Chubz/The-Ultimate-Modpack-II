@@ -426,7 +426,7 @@
 		"unitType": "Civilian",
 		"uniques": ["Cannot be purchased","Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"],
 		"movement": 2
-		"cost":50,
+		"cost":70,
 		"requiredTech": "Currency",
 	},
 	{
@@ -1231,18 +1231,11 @@
 	{
 		"name": "Diplomat",
 		"unitType": "Support",
-		"movement": 2
-		"cost":275,
-		"requiredTech": "Printing Press",
-	},
-	{
-		"name": "Diplomat",
-		"unitType": "Support",
 		"movement": 2,
 		"strength": 20,
 		"cost": 200,
 		"requiredTech": "Printing Press",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","Can build [Land] improvements on tiles"],
 	},
 	{
 		"name": "Caravel",
