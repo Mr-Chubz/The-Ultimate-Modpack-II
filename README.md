@@ -1,4 +1,4 @@
-# Warfare-Expanded-Unciv-Bucketeer
+# The Ultimate Modpack
 A massive unit expansion mod for Unciv G&amp;K Ruleset!
 
 Credited Mods:
