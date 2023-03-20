@@ -1230,10 +1230,19 @@
 	// Rennaisance Era
 	{
 		"name": "Diplomat",
-		"unitType": "Civilian",
+		"unitType": "Support",
 		"movement": 2
 		"cost":275,
 		"requiredTech": "Printing Press",
+	},
+	{
+		"name": "Diplomat",
+		"unitType": "Support",
+		"movement": 2,
+		"strength": 20,
+		"cost": 200,
+		"requiredTech": "Printing Press",
+		"uniques": ["Never appears as a Barbarian unit"],
 	},
 	{
 		"name": "Caravel",
