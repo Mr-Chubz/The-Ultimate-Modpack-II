@@ -1124,7 +1124,90 @@
 		"prerequisites": ["Air to Air Weapon", "NOE Maneuver"],
 		"unitTypes": ["Air Helicopter"]
 	},
+	//Air Bomber
+	{
+		"name": "Carpet Bombing",
+		"uniques": ["[+50]% Strength <vs cities>", "[+20]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Evasive Maneuver",
+		"uniques": ["Damage taken from interception reduced by [30]%"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Naval Patrol Aircraft",
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Heavy Gunship",
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
+		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Tactical Maintenance",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"prerequisites": ["Heavy Gunship", "Naval Patrol Aircraft"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Long Range Mission",
+		"uniques": ["[+2] Range"],
+		"prerequisites": ["Heavy Gunship", "Naval Patrol Aircraft"],
+		"unitTypes": ["Air Bomber"]
+	},
+	{
+		"name": "Stratofortress",
+		"uniques": ["[+2] Range", "[+30]% Strength"],
+		"prerequisites": ["Tactical Maintenance", "Long Range Mission"],
+		"unitTypes": ["Air Bomber"]
+	},
+	//Air Naval Bomber
+	{
+		"name": "Submarine Hunter",
+		"uniques": ["[+30]% Strength <vs [Naval Submarine] units>"],
+		"unitTypes": ["Air Naval Bomber"]
+	},
+	{
+		"name": "Enhanced Maneuverability",
+		"uniques": ["Damage taken from interception reduced by [30]%"],
+		"unitTypes": ["Air Naval Bomber"]
+	},
+	{
+		"name": "Patrol Aircraft",
+		"uniques": ["[+2] Sight","Can see invisible [Naval Submarine] units",],
+		"prerequisites": ["Carpet Bombing", "Evasive Maneuver"],
+		"unitTypes": ["Air Naval Bomber"]
+	},
+	{
+		"name": "Improved Arsenal",
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"prerequisites": ["Submarine Hunter","Enhanced Maneuverability"],
+		"unitTypes": ["Nir Naval Bomber"]
+	},
+	{
+		"name": "Maintenance on The Move",
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"prerequisites": ["Improved Arsenal"],
+		"unitTypes": ["Air Naval Bomber"]
+	},
+	{
+		"name": "Extended Range",
+		"uniques": ["[+2] Range"],
+		"prerequisites": ["Patrol Aircraft"],
+		"unitTypes": ["Air Naval Bomber"]
+	},
+	{
+		"name": "Unshakable Courage",
+		"uniques": ["Damage taken from interception reduced by [30]%","[+20]% Strength"],
+		"prerequisites": ["Maintenance on The Move","Extended Range"],
+		"unitTypes": ["Air Naval Bomber"]
+	},
 
+	
 	//Air Atomic Bomber
 	{
 		"name": "Nuclear Strike Reserve",
@@ -1333,7 +1416,7 @@
 	},
 	{
 		"name": "Storm The Trenches",
-		"uniques": ["[+15]% Strength <vs [Trench] tiles>"]
+		"uniques": ["[+20]% Strength <in [Trench] tiles> <when attacking>"]
 	},
 	{
 		"name": "Reactive Armor",
