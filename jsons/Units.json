@@ -2574,7 +2574,7 @@
 	},
 	{
 		"name": "Torpedo Bomber",
-		"unitType": "Air Bomber",
+		"unitType": "Air Naval Bomber",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
