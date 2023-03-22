@@ -95,7 +95,7 @@
 		"name": "Greatswords",
 		"uniques": ["[+25]% Strength <vs [Anti Cavalry] units>"],
 		"prerequisites": ["Bayonet Charge", "Field Medic"],
-		"unitTypes": ["Infantry"]
+		"unitTypes": ["Infantry","Mercenary"]
 	},
 	{
 		"name": "Urban Warfare",
@@ -114,6 +114,48 @@
 		"uniques": ["[1] additional attacks per turn"],
 		"prerequisites": ["Urban Warfare", "Captain"],
 		"unitTypes": ["Infantry"]
+	},
+	
+		//Mercenary
+	{
+		"name": "Savage Aggression",
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Mercenary"]
+	},
+	{
+		"name": "Kite Shields",
+		"uniques": ["[+25]% Strength <when defending> <vs [Ranged] units>"],
+		"unitTypes": ["Mercenary"]
+	},
+	{
+		"name": "Anti Cavalry",
+		"uniques": ["[+20]% Strength <vs [Heavy Cavalry] units>", "[+20]% Strength <vs [Light Cavalry] units>","[+20]% Strength <vs [Counter Cavalry] units>","[+20]% Strength <vs [Ranged Cavalry] units>"],
+		"prerequisites": ["Kite Shields"],
+		"unitTypes": ["Mercenary"]
+	},
+	{
+		"name": "Warhammers",
+		"uniques": ["[+25]% Strength <vs [Anti Cavalry] units>"],
+		"prerequisites": ["Savage Aggression"],
+		"unitTypes": ["Mercenary"]
+	},
+	{
+		"name": "Urban Assault",
+		"uniques": ["[+40]% Strength <vs cities>"],
+		"prerequisites": ["Warhammers],
+		"unitTypes": ["Mercenary"]
+	},
+	{
+		"name": "Lightfooted",
+		"uniques": ["[+1] Movement"],
+		"prerequisites": ["Anti Cavalry"],
+		"unitTypes": ["Mercenary"]
+	},
+	{
+		"name": "Animalistic Bloodlust",
+		"uniques": ["Heals [25] damage if it kills a unit"],
+		"prerequisites": ["Urban Assault","Lightfooted"],
+		"unitTypes": ["Mercenary"]
 	},
 
 	//Marines
@@ -162,7 +204,7 @@
 	{
 		"name": "Formation",
 		"uniques": ["[+15]% Strength <vs [Heavy Cavalry] units>", "[+15]% Strength <vs [Light Cavalry] units>"],
-		"unitTypes": ["Anti Cavalry"]
+		"unitTypes": ["Anti Cavalry",]
 	},
 	{
 		"name": "Thrust",
@@ -191,7 +233,7 @@
 		"name": "Rapid Redeployment",
 		"uniques": ["[+1] Movement"],
 		"prerequisites": ["Chokepoint"],
-		"unitTypes": ["Anti Cavalry"]
+		"unitTypes": ["Anti Cavalry",]
 	},
 	{
 		"name": "Endurance",
@@ -300,7 +342,7 @@
 		"name": "Paragrenadier",
 		"uniques": ["[+25]% Strength <vs [Heavy Cavalry] units>", "[+25]% Strength <vs [Light Cavalry] units>", "[+25]% Strength <vs [Ranged Cavalry] units> <when attacking>", "[+25]% Strength <vs [Counter Cavalry] units>"],
 		"prerequisites": ["Airborne Raider", "Supply Drop"],
-		"unitTypes": ["Paratrooper"]
+		"unitTypes": ["Paratrooper","Mercenary"]
 	},
 	{
 		"name": "Supply Drop",
