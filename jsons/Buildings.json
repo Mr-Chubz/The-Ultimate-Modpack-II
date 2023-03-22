@@ -142,7 +142,11 @@
 		"hurryCostModifier": 0,
 		"maintenance": 1,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","All newly-trained [Infantry, Anti Cavalry, Siege Melee] units [in this city] receive the [Trench Warfare] promotion", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]",
+			    "All newly-trained [Infantry] units [in this city] receive the [Trench Warfare] promotion", 
+			    "All newly-trained [Anti Cavalry] units [in this city] receive the [Trench Warfare] promotion", 
+			    "All newly-trained [Siege Melee] units [in this city] receive the [Trench Warfare] promotion", 
+			    "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 {
@@ -270,7 +274,7 @@
 	"cost": 400,
         "hurryCostModifier": 25,
         "gold": 2,
-        "uniques": ["New [Armored] units start with [30] Experience [in this city]","All newly-trained [Armor] units [in this city] receive the [Storm The Trenches] promotion","Consumes [1] [Oil]"],
+        "uniques": ["New [Armored] units start with [30] Experience [in this city]","All newly-trained [Armored] units [in this city] receive the [Storm The Trenches] promotion","Consumes [1] [Oil]"],
         "requiredTech": "Combustion"
 },
   {
