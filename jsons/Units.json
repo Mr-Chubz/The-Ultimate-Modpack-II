@@ -26,9 +26,23 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Wayfarer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Explorer",
 		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wayfarer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 25,
+		"uniques": ["Unbuildable", 
+					"Invisible to non-adjacent units", 
+					"[+1] Sight"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -3760,6 +3774,20 @@
 		"uniques": ["Time Machine part", "Cannot be purchased", "Only available <if [Time Machine Blueprints] is constructed>", "Uncapturable", "Can be added to [The Time Machine] in the Capital", "Limited to [1] per Civilization"]
 	}
 //Barbarians
+	{
+		"name": "Suicider",
+		"unitType": "Siege Melee",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 32,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"uniques": ["[+400]% Strength <vs cities> <when attacking>", 
+			    		"Can only attack [City] units", 
+					"Self-destructs when attacking",
+					"Earn [100]% of the damage done to [City] units as [Gold]"],
+		"attackSound": "shot"
+	}
     {
 		"name": "Terrorist",
 		"unitType": "Infantry",
