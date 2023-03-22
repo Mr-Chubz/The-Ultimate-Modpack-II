@@ -142,7 +142,7 @@
 	{
 		"name": "Urban Assault",
 		"uniques": ["[+40]% Strength <vs cities>"],
-		"prerequisites": ["Warhammers],
+		"prerequisites": ["Warhammers"],
 		"unitTypes": ["Mercenary"]
 	},
 	{
