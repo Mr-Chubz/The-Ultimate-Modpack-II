@@ -166,6 +166,11 @@
         "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
         "movementType": "Air"
     },
+	  {
+        "name": "Air Naval Bomber",
+        "uniques": ["Aircraft", "[-20]% Strength <vs [Air] units>"],
+        "movementType": "Air"
+    },
     {
         "name": "Air Close Air Support",
         "uniques": ["Aircraft", "Cannot intercept [Ballistic] units", "Cannot intercept [Satellite] units", "Can perform Air Sweep"],
