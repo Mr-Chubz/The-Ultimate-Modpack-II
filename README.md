@@ -17,8 +17,8 @@ V:1.1
    Anticipated Edits:
         -Rebalance improvements (Complete!)
         -Fix Diplomat (Complete!)
-        -Clean upgrades as much as possible (Complete!)
-        -Update: The Barbarians -Add Wayfinder + Suicider, Increase Barbarian difficulty -- 
+        -Clean upgrades as much as possible (Complete!) (Upgrades can be further cleaned once the future eras are complete)
+        -Update: The Barbarians -Add Wayfinder + Suicider, Increase Barbarian difficulty -- (Complete!)
         -Update: The Future -- Add Stealth Fighter, Separate Pathways
     
     
